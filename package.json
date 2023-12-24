@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "https://ahmed040203.github.io/E-Comerce-React/",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
@@ -24,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm start build",
+    "predeploy": "npm run build",
     "deploy": "main -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
